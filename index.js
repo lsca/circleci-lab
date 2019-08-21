@@ -2,4 +2,11 @@ function sum(x, y) {
   return x + y;
 }
 
-module.exports = sum;
+function multiplication(x,y){
+  return x*y;
+}
+
+module.exports = {
+  sum,
+  multiplication
+};
