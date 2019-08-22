@@ -28,8 +28,18 @@ function multiplication(x, y) {
   return x * y;
 }
 
+/**
+ * Multiplicate two numbers.
+ * @param {int} x The first number.
+ * @return {int} Return the pow of x
+*/
+function pow(x) {
+  return x*x;
+}
+
 module.exports = {
   sum,
   multiplication,
   subtraction,
+  pow,
 };
