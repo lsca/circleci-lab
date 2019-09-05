@@ -23,7 +23,7 @@ function multiplicationTest() {
  * The test for sum function
 */
 function sumTest() {
-  expect(sum(1, 2)).toBe(4);
+  expect(sum(1, 2)).toBe(3);
 }
 
 /**
